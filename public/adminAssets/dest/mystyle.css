@@ -1,0 +1,110 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 70%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 70%;
+}
+.activex {
+    display: block;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* setting from  */
+
+.setting_form {
+    width: 100%;
+    max-width: none !important;
+}
+h1 {
+    text-align: center;
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 2rem !important;
+}
+.setting_form img , .edit_page{
+    width: 100px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+input ,select {
+    font-size: 16px !important;
+}
+.setting_form button {
+    display: block !important;
+    margin: 2rem auto !important;
+}
+/* end setting from  */
+
+
+/* table style */
+#table_id th{
+    text-align: right !important;
+}
+#logout_form:hover{
+    background: #20a8d8;
+    outline: none;
+    border: none;
+}
+#user_logo{
+    border-radius: 50%;
+    width: 40px;
+}
+#deletemodal button{
+    color: black !important ;
+}
+.active{
+    color: white;
+    background-color: #3c3a63 !important;
+}
+
+
+.vamiddle
+{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    /* width: 100% !important; */
+}
+@media screen and (max-width: 770px ) {
+    #regester_parent{
+        display: none;
+    }
+}
